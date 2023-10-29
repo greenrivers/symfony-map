@@ -1,0 +1,21 @@
+@mixin breakpoint($point) {
+  @if $point == lg {
+    @media (max-width: $size-lg) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (max-width: $size-md) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media (max-width: $size-sm) {
+      @content;
+    }
+  } @else if $point == xs {
+    @media (max-width: $size-xs) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

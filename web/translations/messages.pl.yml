@@ -1,0 +1,24 @@
+navbar:
+  map: Mapa
+  history: Historia
+alert:
+  title: Błąd
+history:
+  id: ID
+  temperature: Temperatura
+  cloudiness: Zachmurzenie
+  wind: Wiatr
+  description: Opis
+  position: Położenie [szerokość, długość]
+  city: Miasto
+  dateTime: Data i czas
+  error: Błąd
+  status: Status
+  saving: zapisywanie danych
+  saved: Zapisano!
+stats:
+  temperature.min: Temperatura minimalna
+  temperature.max: Temperatura maksymalna
+  temperature.avg: Temperatura średnia
+  city: Najczęściej wyszukiwane miasto
+  all: Wszystkie wyszukiwania

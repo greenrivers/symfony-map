@@ -1,0 +1,24 @@
+navbar:
+  map: Map
+  history: History
+alert:
+  title: Error
+history:
+  id: ID
+  temperature: Temperature
+  cloudiness: Cloudiness
+  wind: Wind
+  description: Description
+  position: Position [lat, lng]
+  city: City
+  dateTime: DateTime
+  error: Error
+  status: Status
+  saving: data saving
+  saved: Saved!
+stats:
+  temperature.min: Temperature min
+  temperature.max: Temperature max
+  temperature.avg: Temperature avg
+  city: The most frequent city
+  all: All searches
